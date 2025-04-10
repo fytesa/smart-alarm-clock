@@ -20,7 +20,7 @@ def fetch_week_parity():
             word = match.group(1).lower()
             if "неч" in word:
                 return "odd"
-            elif "чет" in word:
+            elif "чёт" in word:
                 return "even"
     return None
 
